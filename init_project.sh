@@ -13,7 +13,6 @@ echo ""
 menu_function () {
 echo "Which project do you want to execute:
 
-echo ""
 	1. Bash
 	2. Python
 	3. Exit()
@@ -44,19 +43,20 @@ menu_function
 case $user_choice in
   1)
      # Bash Script
-     echo "      **********Bash Script**********     "
+     echo "      **********  Bash Script  **********     "
 
     ;;
 
-  2)
+  2) 
+echo "      ********** Python ********      "
      # Python Environment
      # A virtual environment is needed to carryout this part of the project. The following steps below will be used to create a venv.
      # This script assumes that python3 has been installed by the user
-    echo "To carry out this task, a virtual environment is needed. $user kindly provide the neccessary data neeeded below"
+    echo "To carry out this task, a virtual environment is needed. $user kindly provide the neccessary data needed below"
 
 echo ""
      # we commence by prompting the user for the venv name
-     read -p "Enter your virual environment name: " name_of_venv
+     read -p "Enter your virual environment name to be created: " name_of_venv
 
 echo ""
 
