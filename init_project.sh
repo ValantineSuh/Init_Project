@@ -91,5 +91,5 @@ esac
    # - Starts by asking the user for his/her name.
    # - Giving the user a menu of projects to choose from (Bash or Python)
    # - The script creates a python virtual environment(when the Python option is chosen), installing python libraaries such as seaborn and  pandas. After the installation, the 
-   # freeze command is used an the output is redirected to a newly created requirements.txt file. After the above steps are completed, the script, then deactivates the venv.
-   # - THe script also creates a README file (when the Bash option is chosen) which contains instructions on how to run the script.
+   # freeze command is used and the output is redirected to a newly created requirements.txt file. After the above steps are completed, the script, then deactivates the venv.
+   # - The script also creates a README file (when the Bash option is chosen) which contains instructions on how to run the script.
